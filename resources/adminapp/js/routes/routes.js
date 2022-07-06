@@ -120,6 +120,54 @@ const routes = [
         name: 'pendaftars.edit',
         component: () => import('@cruds/Pendaftars/Edit.vue'),
         meta: { title: 'cruds.pendaftar.title' }
+      },
+      {
+        path: 'tikets',
+        name: 'tikets.index',
+        component: () => import('@cruds/Tikets/Index.vue'),
+        meta: { title: 'cruds.tiket.title' }
+      },
+      {
+        path: 'tikets/create',
+        name: 'tikets.create',
+        component: () => import('@cruds/Tikets/Create.vue'),
+        meta: { title: 'cruds.tiket.title' }
+      },
+      {
+        path: 'tikets/:id',
+        name: 'tikets.show',
+        component: () => import('@cruds/Tikets/Show.vue'),
+        meta: { title: 'cruds.tiket.title' }
+      },
+      {
+        path: 'tikets/:id/edit',
+        name: 'tikets.edit',
+        component: () => import('@cruds/Tikets/Edit.vue'),
+        meta: { title: 'cruds.tiket.title' }
+      },
+      {
+        path: 'pembayarans',
+        name: 'pembayarans.index',
+        component: () => import('@cruds/Pembayarans/Index.vue'),
+        meta: { title: 'cruds.pembayaran.title' }
+      },
+      {
+        path: 'pembayarans/create',
+        name: 'pembayarans.create',
+        component: () => import('@cruds/Pembayarans/Create.vue'),
+        meta: { title: 'cruds.pembayaran.title' }
+      },
+      {
+        path: 'pembayarans/:id',
+        name: 'pembayarans.show',
+        component: () => import('@cruds/Pembayarans/Show.vue'),
+        meta: { title: 'cruds.pembayaran.title' }
+      },
+      {
+        path: 'pembayarans/:id/edit',
+        name: 'pembayarans.edit',
+        component: () => import('@cruds/Pembayarans/Edit.vue'),
+        meta: { title: 'cruds.pembayaran.title' }
       }
     ]
   }
