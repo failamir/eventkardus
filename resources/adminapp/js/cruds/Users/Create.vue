@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="card">
-            <div class="card-header card-header-primary card-header-icon">
+            <div class="card-header card-header-danger card-header-icon">
               <div class="card-icon">
                 <i class="material-icons">add</i>
               </div>
@@ -107,7 +107,7 @@
             </div>
             <div class="card-footer">
               <vue-button-spinner
-                class="btn-primary"
+                class="btn-danger"
                 :status="status"
                 :isLoading="loading"
                 :disabled="loading"

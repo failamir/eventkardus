@@ -144,14 +144,14 @@
           </figure>
           <span class="font-weight-bold">Drop files here to upload</span>
           <p class="separator"><span> or </span></p>
-          <button type="button" class="btn btn-azure">
+          <button type="button" class="btn btn-danger">
             Browse
           </button>
         </div>
       </div>
 
       <div class="file-preview-container" v-show="hasFiles">
-        <button type="button" class="btn btn-azure">
+        <button type="button" class="btn btn-danger">
           Browse
         </button>
         <component
