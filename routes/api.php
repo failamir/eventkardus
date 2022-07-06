@@ -19,4 +19,10 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
 
     // Pendaftar
     Route::resource('pendaftars', 'PendaftarApiController');
+
+    // Tiket
+    Route::resource('tikets', 'TiketApiController');
+
+    // Pembayaran
+    Route::resource('pembayarans', 'PembayaranApiController');
 });

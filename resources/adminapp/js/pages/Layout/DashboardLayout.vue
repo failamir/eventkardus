@@ -64,6 +64,18 @@ export default {
           icon: 'table_view',
           path: { name: 'pendaftars.index' },
           gate: 'pendaftar_access'
+        },
+        {
+          title: 'cruds.tiket.title',
+          icon: 'table_view',
+          path: { name: 'tikets.index' },
+          gate: 'tiket_access'
+        },
+        {
+          title: 'cruds.pembayaran.title',
+          icon: 'table_view',
+          path: { name: 'pembayarans.index' },
+          gate: 'pembayaran_access'
         }
       ]
     }

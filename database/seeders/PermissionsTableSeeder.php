@@ -94,6 +94,46 @@ class PermissionsTableSeeder extends Seeder
                 'id'    => 21,
                 'title' => 'pendaftar_access',
             ],
+            [
+                'id'    => 22,
+                'title' => 'tiket_create',
+            ],
+            [
+                'id'    => 23,
+                'title' => 'tiket_edit',
+            ],
+            [
+                'id'    => 24,
+                'title' => 'tiket_show',
+            ],
+            [
+                'id'    => 25,
+                'title' => 'tiket_delete',
+            ],
+            [
+                'id'    => 26,
+                'title' => 'tiket_access',
+            ],
+            [
+                'id'    => 27,
+                'title' => 'pembayaran_create',
+            ],
+            [
+                'id'    => 28,
+                'title' => 'pembayaran_edit',
+            ],
+            [
+                'id'    => 29,
+                'title' => 'pembayaran_show',
+            ],
+            [
+                'id'    => 30,
+                'title' => 'pembayaran_delete',
+            ],
+            [
+                'id'    => 31,
+                'title' => 'pembayaran_access',
+            ],
         ];
 
         Permission::insert($permissions);

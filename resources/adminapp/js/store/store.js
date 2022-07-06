@@ -12,6 +12,10 @@ import UsersIndex from './cruds/Users'
 import UsersSingle from './cruds/Users/single'
 import PendaftarsIndex from './cruds/Pendaftars'
 import PendaftarsSingle from './cruds/Pendaftars/single'
+import TiketsIndex from './cruds/Tikets'
+import TiketsSingle from './cruds/Tikets/single'
+import PembayaransIndex from './cruds/Pembayarans'
+import PembayaransSingle from './cruds/Pembayarans/single'
 
 Vue.use(Vuex)
 
@@ -28,7 +32,11 @@ export default new Vuex.Store({
     UsersIndex,
     UsersSingle,
     PendaftarsIndex,
-    PendaftarsSingle
+    PendaftarsSingle,
+    TiketsIndex,
+    TiketsSingle,
+    PembayaransIndex,
+    PembayaransSingle
   },
   strict: debug
 })
